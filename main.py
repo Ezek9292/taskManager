@@ -216,7 +216,31 @@
 # delete_task_response = delete.delete_task("Wake up")
 # print(delete_task_response)
 
-from oop import Chat
+# from oop import Chat
 
-chat_with_abena = Chat()
-print(chat_with_abena)
+# chat_with_abena = Chat()
+# print(chat_with_abena)
+
+
+
+# from add import add_task
+# from show import show_tasks
+
+
+# task_title = input("what task are you goint to do?: ")
+# add_task({"title": task_title})
+
+# for task in show_tasks():
+#     print(task)
+
+import tkinter as tk
+import ui
+app = tk.Tk()
+app.title("Task_manager")
+app.geometry("720x480")
+
+
+
+ui.show_add_task_frame(app)
+# ui.show_all_tasks_frame(app)
+app.mainloop()
