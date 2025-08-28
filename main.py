@@ -241,6 +241,6 @@ app.geometry("720x480")
 
 
 
-ui.show_add_task_frame(app)
+ui.show_all_tasks_frame(app)
 # ui.show_all_tasks_frame(app)
 app.mainloop()
